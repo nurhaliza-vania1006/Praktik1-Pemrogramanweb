@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Form Pemesanan</title>
+    </head>
+    <body style="background-color:grey;">
+    <div
+        style="
+        display: block;
+        margin: 0 auto;
+        max-width: 80%;
+        background-color: white;">
+    <br>
+    <table border="1" rules="none" style="width: 80%;" align="center">
+        <tr>
+            <th>Home |</th>
+            <th>Generate Link |</th>
+            <th>Transaction History |</th>
+            <th>Policy |</th>
+            <th>Logout</th>
+        </tr>
+    </table>
+    <br>
+    <table border="0" rules="1" cellspacing="10" cellpading="0" style="width: 80%;" align="center">
+        <tr>
+            <td rowspan="9"><img src="foto.jpg" width="200px">
+            <br> <button type="submit">Upload Picture</button>
+            </td>
+            <td>Tittle Here : </td>
+            <td><input type="text" name="Title here" id="form-name" size="40"></td>
+        </tr>
+        <tr>
+            <td>Description : </td>
+            <td><textarea name="Description" cols="40" rows="5"></textarea></td>
+        </tr>
+        <tr>
+            <td>Account Number : </td>
+            <td><input type="number" name="Account Number" id="form-tel" size="40"></td>
+        </tr>
+        <tr>
+            <td>Bank : </td>
+            <td><input type="text" list="Bank"></td>
+            <td>
+            <datalist id="Bank">
+                <option value="HSBC">
+                <option value="Mandiri">
+                <option value="BCA">
+                <option value="BNI"></datalist> </td>
+        </tr>
+        <tr>
+            <td>Account Holder : </td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Transaction : </td>
+            <td><input type="number" style="width: 10%;">
+            <br><font size="2">* if the transaction ids for 3 person, choose 3 from the drop-down list</font>
+            <br><input type="checkbox" id="Mobile Phone" name="Mobile Phone" value="Send to Mobile Phone">
+            <label for="Mobile Phone"><font size="2">Send to Mobile Phone</font></label>
+            <br><input type="checkbox" id="E-mail" name="E-mail" value="Send to E-mail">
+            <label for="E-mail"><font size="2">Send to E-mail</font></label>
+        </td>
+        </tr>
+        <tr>
+            <td>Send to Mobile Phone : </td>
+            <td><input type="number"></td>
+        </tr>
+        <tr>
+            <td>Sed to E-mail : </td>
+            <td><input type="email"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><br><button style="background-color: green; border-width: 5px;
+                height: 30px; border-color: black;">Generate Nabr Link</button></td>
+        </tr>
+    </table>
+    </div>
+    </body>
+</html>
